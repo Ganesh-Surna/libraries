@@ -1,0 +1,11 @@
+npm i react-typed
+
+import {Typed} from "react-typed"
+
+const stringsArr = [
+"Ganesh Surna",
+"a full-stack developer",
+"a cricket fan"
+]
+
+<h2> Hello, I am <Typed strings={stringsArr} typeSpeed={50} backspeed={50} loop/> </h2>
